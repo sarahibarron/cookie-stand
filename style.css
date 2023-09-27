@@ -38,3 +38,26 @@ h3 {
   margin-left: 20px;
   margin-right: auto;
 }
+
+table {
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 18%;
+}
+
+tr:nth-child(even) {
+  background-color: #b0b2ad;
+}
+
+tr:nth-child(odd) {
+  background-color: #dd967a;
+}
+
+th {
+  background-color: #133c3f;
+  color: #f4eade;
+  padding: 8px;
+}
+
+td {
+  padding: 6px;
+}
