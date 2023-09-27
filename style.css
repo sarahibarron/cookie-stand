@@ -61,3 +61,13 @@ th {
 td {
   padding: 6px;
 }
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
