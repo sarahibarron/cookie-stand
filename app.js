@@ -119,3 +119,19 @@ tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
+
+// my form event listener
+const form = document.getElementById("newlocationform");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const location = event.target.location.value;
+  const minCust = event.target.minCust.value;
+  const maxCust = event.target.maxCust.value;
+  const average = event.target.average.value;
+
+  const newLocation = new CookieStore(location, minCust, maxCust, average);
+
+  newLocation.render();
+});
